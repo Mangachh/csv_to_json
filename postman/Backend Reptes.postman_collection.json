@@ -1,0 +1,196 @@
+{
+	"info": {
+		"_postman_id": "695ab618-48b7-4e99-bc1a-fd1c4e1745a3",
+		"name": "Backend Reptes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CSV to JSON",
+			"item": [
+				{
+					"name": "Convert English CSV suppling a delimiter",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "Point_Decimal_English_Delimiter.csv"
+								},
+								{
+									"key": "delimiter",
+									"value": ",",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/cbs/csv_to_json",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"cbs",
+								"csv_to_json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Convert English CSV WITHOUT suppling a delimiter",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "Point_Decimal_English_Delimiter.csv"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/cbs/csv_to_json",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"cbs",
+								"csv_to_json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Convert Spanish CSV suppling a delimiter",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "Coma_Decimal_Spanish_Delimiter.csv"
+								},
+								{
+									"key": "delimiter",
+									"value": ";",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/cbs/csv_to_json?",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"cbs",
+								"csv_to_json"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Convert Spanish CSV WITHOUT suppling a delimiter",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "Coma_Decimal_Spanish_Delimiter.csv"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/cbs/csv_to_json",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"cbs",
+								"csv_to_json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Trying to convert a not CSV file",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "No_CSV.txt"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/cbs/csv_to_json",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"cbs",
+								"csv_to_json"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
