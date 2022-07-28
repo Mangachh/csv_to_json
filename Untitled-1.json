@@ -1,0 +1,132 @@
+[
+    {
+        "Letter": "A",
+        "Frequency": 24373121,
+        "Percentage": 8.1
+    },
+    {
+        "Letter": "B",
+        "Frequency": 4762938,
+        "Percentage": 1.6
+    },
+    {
+        "Letter": "C",
+        "Frequency": 8982417,
+        "Percentage": 3.0
+    },
+    {
+        "Letter": "D",
+        "Frequency": 10805580,
+        "Percentage": 3.6
+    },
+    {
+        "Letter": "E",
+        "Frequency": 37907119,
+        "Percentage": 12.6
+    },
+    {
+        "Letter": "F",
+        "Frequency": 7486889,
+        "Percentage": 2.5
+    },
+    {
+        "Letter": "G",
+        "Frequency": 5143059,
+        "Percentage": 1.7
+    },
+    {
+        "Letter": "H",
+        "Frequency": 18058207,
+        "Percentage": 6.0
+    },
+    {
+        "Letter": "I",
+        "Frequency": 21820970,
+        "Percentage": 7.3
+    },
+    {
+        "Letter": "J",
+        "Frequency": 474021,
+        "Percentage": 0.2
+    },
+    {
+        "Letter": "K",
+        "Frequency": 1720909,
+        "Percentage": 0.6
+    },
+    {
+        "Letter": "L",
+        "Frequency": 11730498,
+        "Percentage": 3.9
+    },
+    {
+        "Letter": "M",
+        "Frequency": 7391366,
+        "Percentage": 2.5
+    },
+    {
+        "Letter": "N",
+        "Frequency": 21402466,
+        "Percentage": 7.1
+    },
+    {
+        "Letter": "O",
+        "Frequency": 23215532,
+        "Percentage": 7.7
+    },
+    {
+        "Letter": "P",
+        "Frequency": 5719422,
+        "Percentage": 1.9
+    },
+    {
+        "Letter": "Q",
+        "Frequency": 297237,
+        "Percentage": 0.1
+    },
+    {
+        "Letter": "R",
+        "Frequency": 17897352,
+        "Percentage": 5.9
+    },
+    {
+        "Letter": "S",
+        "Frequency": 19059775,
+        "Percentage": 6.3
+    },
+    {
+        "Letter": "T",
+        "Frequency": 28691274,
+        "Percentage": 9.5
+    },
+    {
+        "Letter": "U",
+        "Frequency": 8022379,
+        "Percentage": 2.7
+    },
+    {
+        "Letter": "V",
+        "Frequency": 2835696,
+        "Percentage": 0.9
+    },
+    {
+        "Letter": "W",
+        "Frequency": 6505294,
+        "Percentage": 2.2
+    },
+    {
+        "Letter": "X",
+        "Frequency": 562732,
+        "Percentage": 0.2
+    },
+    {
+        "Letter": "Y",
+        "Frequency": 5910495,
+        "Percentage": 2.0
+    },
+    {
+        "Letter": "Z",
+        "Frequency": 93172,
+        "Percentage": 0.0
+    }
+]
