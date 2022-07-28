@@ -5,6 +5,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import cbs.csv_to_json.utils.CsvUtils;
 
+import org.apache.logging.log4j.message.ReusableMessage;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -28,6 +29,10 @@ public class TransformController {
     @GetMapping(value = "/csv_to_json")
     public ResponseEntity<String> getMethodName(@RequestParam("file") MultipartFile file, @RequestParam(name = "delimiter", required = false) final String delimiter) {
         String json = "";
+
+        if (file == null) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).header("Error", "No file provided").body(null);
+        }
 
         if (CsvUtils.isCsv(file)) {
             json = CsvUtils.CsvToJson(file, delimiter);

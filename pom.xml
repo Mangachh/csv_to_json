@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>cbs.csv_to_json</groupId>
 	<artifactId>csv_to_jason</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>csv_to_jason</name>
-	<description>Demo project for Spring Boot</description>
+	<version>1.0</version>
+	<name>CSV To Json</name>
+	<description>An endpoint that transforms a csv file into a Json</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

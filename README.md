@@ -6,7 +6,7 @@
 
  ## Postman
 
- In order to test the endpoint, a postman collection is provided. As it uses **Csv** files, before trying to test the endpoint is necessary to put the files in the *postman/files* into the working directory of postman. 
+ In order to test the endpoint, a postman collection is provided. As it uses **Csv** files, before trying to test the endpoint is necessary to put the files in the *postman/files* into postman's working directory.
  
 
  ## Liscense
